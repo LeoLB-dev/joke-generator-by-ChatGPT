@@ -1,0 +1,44 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    }
+    
+    .container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    h1 {
+    margin-bottom: 30px;
+    }
+    
+    .big-button {
+    padding: 20px 40px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    }
+
+#footer {
+    position:absolute;
+    bottom:0; 
+    width:50%;
+    height:38pt
+}
+    
+    @media (max-width: 700px) {
+    .container {
+    margin-top: 20px;
+    }
+    }
